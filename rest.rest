@@ -1,0 +1,27 @@
+GET http://localhost:4000
+authorization: eyJhbGciOiJIUzI1NiJ9.QmVrem9kYmVr.gdWb74ZN_Vabgd_ftJKvPiwL_VSgA2huUkYUZCJoQZY
+
+
+###
+
+POST http://localhost:4000/login
+
+Content-Type: application/json
+
+{
+    username: "diyorname",
+    email: "diyorname@gmail.com",
+    
+}
+
+###
+
+POST http://localhost:4000/admin/add
+
+Content-Type: application/json
+{
+    "category":"maishiy",
+    "region":"Uzbekistan",
+    "image":"https://www.shutterstock.com/image-vector/abstract-lines-dots-connect-background-technology-1492332182",
+    "attributes":["light","color","background"]
+}
