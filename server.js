@@ -17,7 +17,7 @@ var mongooseMorgan = require("mongoose-morgan");
 // Logger
 app.use(
   mongooseMorgan({
-    connectionString: "mongodb://localhost:27017/avito-ru",
+    connectionString: "mongodb+srv://bek:bekzodbek01@cluster0.yyitjcn.mongodb.net/avito-ru",
   })
 );
 
